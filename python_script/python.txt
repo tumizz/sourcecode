@@ -1,0 +1,156 @@
+conda 명령어
+
+패키지 설치
+$conda install numpy # numpy 설치 
+
+동시에 여러 패키지를 설치 
+$conda install numpy scipy pandas # numpy, scipy, pandas 동시 설치
+
+특정 버전 설치
+$conda install numpy=1.10 # 특정버전 설치
+
+패키지 제거
+$conda remove package_name
+
+패키지 업데이트
+$conda update package_name 
+
+모든 패키지 업데이트
+$conda update -all
+
+설치된 목록 출력
+$conda list
+
+설치하려는 패키지 검색 
+$conda search search_term
+
+conda를 사용하여 환경 생성
+$conda create -n python3_test python=3
+
+conda로 세팅한 환경 활성화
+$activate python3_test 
+비활성화
+$deactivate
+
+사용할 패키지 설치
+$conda install numpy pandas matplotlib jupyter notebook 
+
+패키지를 YAML 파일에 저장 
+$conda env export > environment.yaml 
+
+environment.yaml에 같은 이름의 새로운 환경 생성 
+$conda env create -f environment.yaml 
+
+Listing onments 
+$conda python3_test list  #환경 내부에서 확인 시 conda list 
+$conda list py3 
+$conda env list 
+$conda list 
+
+Removing environments 
+$conda env remove -n env_name 
+
+
+#################파이썬 기초문법####################
+jupyter, spyder, pycharm, IDLE(단순작업)
+
+anaconda navigator 파이썬툴 설치할수있음 
+
+idle.exe 실행  쉘모드 
+Ctrl + n 인터프리터
+F5 run 
+
+>>> print("hello, python")
+>>> import os 
+>>> os.system("calc")
+
+
+***공백, 길이***
+>>> str1 = "I love you, John!"
+>>> a = str1.split(" ")
+>>> print(a)
+['I', 'love', 'you,', 'John!']
+>>> print("a의 길이:", len(a))
+a의 길이: 4
+
+
+****set****
+ - 중복된 요소가 없는 정렬되지 않은 집합
+ - 기본적으로 멤버를 검사하고 중복 항목을 제거
+ - Union, intersection, difference, symmetric difference와 같은 수학적 연산 지원
+ - 중괄호나 set() 함수를 사용하여 set를 생성 
+ 
+**구구단**
+>>> for i in range(2,10):
+		print("{}단".format(i))
+		for j in range(1,10):
+			print("{} x {} = {}".format(i,j,i*j))
+###흐름 제어 ###
+break : 구문을 탈출하고자 할 때 사용
+Continue : 아래의 코드를 무시하고 for문을 처음부터 시작할 때 사용 
+pass는 아무런 실행도 원하지 않을 때 정상적인 구문으로 처리 
+
+try : 코드 수행을 시도 
+except : 코드 수행에 실패했을 경우 실행 
+import os
+try:
+    os.system(calc)
+except Exception as e:
+    print(e)
+print("exit")
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
