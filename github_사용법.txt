@@ -1,0 +1,23 @@
+github 사용법
+
+https://gitforwindows.org/ 다운로드
+
+$git init 
+
+$git remote add origin git@github.com:tumizz/TEST.git //깃허브 연동 
+git remote remove origin //remote 제거 
+
+$git status //연결상태 체크 
+
+$git add . //파일 추가
+
+$git commit -m "Helb" //알림
+
+$git push -u origin master //git에 업로드
+
+$git pull origin master
+
+https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+잡플래닛 코드
+ZtygV7vARV
