@@ -49,6 +49,7 @@ Application 탭에서 웹사이트 구조를 볼 수 있음
  Cookies에 로그인할떄 처리한 정보가 있음 
  사이트에 따라서 쿠키값이 저장되어 있음 
  
+ 
 @@@@@@@@@@@@@@@@파이썬 urllib을 활용한 웹에서 필요한 데이터 추출하기(1) 
 download2-2-1 ~ 2-2-2
 
@@ -60,6 +61,7 @@ download2-2-1 ~ 2-2-2
 
 https://wikidocs.net/26
 https://docs.python.org/3/library/urllib.request.html
+
 
 @@@@@@@@@@@@@@@@파이썬 urllib을 활용한 웹에서 필요한 데이터 추출하기(2) 
 download2-3-1 ~ 2-3-3
@@ -80,24 +82,89 @@ print(type([])) #<class 'list'>
 print(type(())) #<class 'tuple'> 
 
 
+@@@@@@@@@@@@@@@@파이썬으로 youtube 동영상 다운받고 mp3변환 자동화하기!
+youtube-downloader.py
+
+1.Pytube로 원하는 youtube 동영상 저장하기
+2.동영상 -> mp3 변환
+3.동영상 다운 및 mp3 변환 한 번에 자동화 하기
+
+실습(과제) : 동영상 url 입력 받아 다운 & 변환 해보기 + @
+
+https://github.com/nficano/pytube
+https://docs.python.org/3.6/library/subprocess.html
+
+윈도우 : http://www.filehorse.com/download-ffmpeg-64/
+Mac(linux) : https://www.ffmpeg.org/download.html
 
 
+activate section2
+pip install pytube
+
+c:\youtube>ffmpeg -i "산들 - 취기를 빌려 (취향저격 그녀 X 산들) [여자ver] cover by suzi  kpop.mp4" new.mp3
 
 
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 간단 웹파싱 기초(1)
+download2-5-1.py ~2-5-4.py
 
+1.BeautifulSoup 간단 파싱 학습
+2.urljoin, find_all, select_one, next_sibling, previous_sibling
+3.선택자(Selector)
 
+BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Selector : https://www.w3schools.com/cssref/css_selectors.asp
+온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
+pip install beautifulsoup4
 
+urljoin 
+attrs[]
+find_all 
 
+css selector 
+soup.select 
+soup.select_one 
 
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 간단 웹파싱 기초(2)
+download2-6-1.py ~ 2-6-3.py 
 
+1.BeautifulSoup HTML 파일 파싱 실습
+2.더욱 다양하게 CSS 선택자 사용해보기
+3.find, select 실습 예제
 
+BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+정규표현식 : 
+http://pythonstudy.xyz/python/article/401-%EC%A0%95%EA%B7%9C-%ED%91%9C%ED%98%84%EC%8B%9D-Regex
+Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
+람다식 : http://thrillfighter.tistory.com/356
 
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(1)
 
+1.다음(daum) 금융 시가총액 상위 종목 가져오기
+2.네이버(naver) 금융 Top 10 종목 가져오기
+3.인프런(inflearn) 추천 강좌 10개 가져오기
 
+실습(과제) :  다음(daum) 실시간 인기 검색어 + link 스크랩핑 해오기
 
+BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(2)
+1.네이버에서 원하는 사진(이미지) 한 번에 다운로드 받기
+2.인프런 추천 강좌 이미지 한 번에 다운로드 & 제목 텍스트 파일 출력하기
 
+실습(과제) : 인프런 추천강좌(평점순 강좌, 학생수순) 이미지, 텍스트 가져오기 
+
+BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+ErrorCode : https://python.readthedocs.io/en/latest/library/errno.html
+
+파이썬 기초공부 - 파이썬 클래스(Class)개념 알아보기
+1.클래스 생성자 이해하기
+2.Self 이해하기
+3.클래스 네임스페이스 이해하기
+4.클래스 변수와 인스턴스 변수 차이점 이해하기
+
+Classes Documentation : https://docs.python.org/3/tutorial/classes.html
 
 
 
