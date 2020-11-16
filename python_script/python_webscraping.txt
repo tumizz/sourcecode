@@ -138,7 +138,7 @@ http://pythonstudy.xyz/python/article/401-%EC%A0%95%EA%B7%9C-%ED%91%9C%ED%98%84%
 Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 람다식 : http://thrillfighter.tistory.com/356
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(1)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 기초(1)
 
 1.다음(daum) 금융 시가총액 상위 종목 가져오기
 2.네이버(naver) 금융 Top 10 종목 가져오기
@@ -149,7 +149,7 @@ Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(2)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 기초(2)
 1.네이버에서 원하는 사진(이미지) 한 번에 다운로드 받기
 2.인프런 추천 강좌 이미지 한 번에 다운로드 & 제목 텍스트 파일 출력하기
 
@@ -166,8 +166,17 @@ ErrorCode : https://python.readthedocs.io/en/latest/library/errno.html
 
 Classes Documentation : https://docs.python.org/3/tutorial/classes.html
 
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(1)
+download2-7-1 ~ 2-7-3 
 
+1.다음(daum) 금융 시가총액 상위 종목 가져오기
+2.네이버(naver) 금융 Top 10 종목 가져오기
+3.인프런(inflearn) 추천 강좌 10개 가져오기
 
+실습(과제) :  다음(daum) 실시간 인기 검색어 + link 스크랩핑 해오기
+
+BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
 
 
