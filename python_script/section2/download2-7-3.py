@@ -15,5 +15,6 @@ url = base + quote
 res = req.urlopen(url).read()
 soup = BeautifulSoup(res,"html.parser")
 
-recommand = soup.select("ul.slides")
-print(recommand)
+recommand = soup.select("ul.slides")[0]
+for i,e in enumerate(recommand,1):
+    print(i,e.select_one("h4.block_title > a").string)
