@@ -178,6 +178,55 @@ download2-7-1 ~ 2-7-3
 BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(2)
+download2-8-1.py 폴더만들어서 페이지에 있는 이미지파일 모두 다운로드함
+
+1.네이버에서 원하는 사진(이미지) 한 번에 다운로드 받기
+2.인프런 추천 강좌 이미지 한 번에 다운로드 & 제목 텍스트 파일 출력하기
+
+실습(과제) : 인프런 추천강좌(평점순 강좌, 학생수순) 이미지, 텍스트 가져오기 
+
+BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+ErrorCode : https://python.readthedocs.io/en/latest/library/errno.html
+
+3vs 
+Volume 데이터의 양
+Variety 데이터의 다양성 
+Velocity 데이터의 속도 
+
+user-agent
+
+
+@@@@@@@@@@@@@@@@파이썬 기초 공부 - 파이썬 클래스(Class) 개념 알아보기 
+
+1.클래스 생성자 이해하기
+2.Self 이해하기
+3.클래스 네임스페이스 이해하기
+4.클래스 변수와 인스턴스 변수 차이점 이해하기
+
+Classes Documentation : https://docs.python.org/3/tutorial/classes.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
