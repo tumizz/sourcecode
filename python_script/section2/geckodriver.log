@@ -1,0 +1,76 @@
+1606219150327	geckodriver	INFO	geckodriver 0.19.1
+1606219150337	geckodriver	INFO	Listening on 127.0.0.1:10097
+1606219153406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\POKER\\AppData\\Local\\Temp\\rust_mozprofile.HyZGemtXIsw1"
+*** You are running in headless mode.
+1606219154277	Marionette	TRACE	Marionette enabled
+1606219154311	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606219155521	Marionette	TRACE	Received observer notification marionette-startup-requested
+1606219155522	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1606219155533	Marionette	TRACE	All scripts recorded.
+1606219155533	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1606219155533	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1606219155534	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1606219155534	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1606219155534	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1606219155534	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1606219155534	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1606219155534	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1606219155535	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1606219155535	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1606219155582	Marionette	INFO	Listening on port 10107
+1606219155583	Marionette	DEBUG	Marionette is listening
+1606219155920	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:10131
+1606219155921	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1606219155921	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1606219155924	Marionette	DEBUG	Closed connection 0
+Exiting due to channel error.
+Exiting due to channel error.
+4	geckodriver	INFO	Listening on 127.0.0.1:10200
+1606219239876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\POKER\\AppData\\Local\\Temp\\rust_mozprofile.vanQfO65yl1V"
+*** You are running in headless mode.
+1606219527609	geckodriver	INFO	Listening on 127.0.0.1:10410
+1606219530628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\POKER\\AppData\\Local\\Temp\\rust_mozprofilePt43ZK"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606219532371	Marionette	INFO	Listening on port 10421
+1606219532668	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1606219536172	Marionette	INFO	Stopped listening on port 10421
+1606219548104	geckodriver	INFO	geckodriver 0.19.1
+1606219548114	geckodriver	INFO	Listening on 127.0.0.1:10511
+1606219551204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\POKER\\AppData\\Local\\Temp\\rust_mozprofile.h21ydiAUtQMd"
+*** You are running in headless mode.
+1606219551572	Marionette	TRACE	Marionette enabled
+1606219551600	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1606219552628	Marionette	TRACE	Received observer notification marionette-startup-requested
+1606219552628	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1606219552639	Marionette	TRACE	All scripts recorded.
+1606219552639	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1606219552639	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1606219552640	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1606219552640	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1606219552640	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1606219552640	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1606219552640	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1606219552640	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1606219552640	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1606219552640	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1606219552641	Marionette	INFO	Listening on port 10521
+1606219552642	Marionette	DEBUG	Marionette is listening
+1606219553219	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:10553
+1606219553224	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1606219553225	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+1606219553227	Marionette	DEBUG	Closed connection 0
+Exiting due to channel error.
+Exiting due to channel error.
+06219565195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\POKER\\AppData\\Local\\Temp\\rust_mozprofile0f8dzz"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606219566618	Marionette	INFO	Listening on port 10569
+1606219566721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1606219569792	Marionette	INFO	Stopped listening on port 10569

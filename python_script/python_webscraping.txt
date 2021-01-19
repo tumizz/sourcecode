@@ -50,7 +50,8 @@ Application 탭에서 웹사이트 구조를 볼 수 있음
  사이트에 따라서 쿠키값이 저장되어 있음 
  
  
-@@@@@@@@@@@@@@@@파이썬 urllib을 활용한 웹에서 필요한 데이터 추출하기(1) 
+@@@@@@@@@@@@@@@@파이썬 urllib을 활용한 웹에서 필요한 데이터 추출하기(1) #####################
+
 download2-2-1 ~ 2-2-2
 
 1.Urlretrieve #다이렉트로 저장함, urllib.request.urlretrieve(url데이터, 저장경로)
@@ -63,7 +64,7 @@ https://wikidocs.net/26
 https://docs.python.org/3/library/urllib.request.html
 
 
-@@@@@@@@@@@@@@@@파이썬 urllib을 활용한 웹에서 필요한 데이터 추출하기(2) 
+@@@@@@@@@@@@@@@@파이썬 urllib을 활용한 웹에서 필요한 데이터 추출하기(2) ######################
 download2-3-1 ~ 2-3-3
 
 1.Urlopen 파라미터(Parameter) 전달 방법
@@ -82,7 +83,7 @@ print(type([])) #<class 'list'>
 print(type(())) #<class 'tuple'> 
 
 
-@@@@@@@@@@@@@@@@파이썬으로 youtube 동영상 다운받고 mp3변환 자동화하기!
+@@@@@@@@@@@@@@@@파이썬으로 youtube 동영상 다운받고 mp3변환 자동화하기!######################
 youtube-downloader.py
 
 1.Pytube로 원하는 youtube 동영상 저장하기
@@ -104,7 +105,7 @@ pip install pytube
 c:\youtube>ffmpeg -i "산들 - 취기를 빌려 (취향저격 그녀 X 산들) [여자ver] cover by suzi  kpop.mp4" new.mp3
 
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 간단 웹파싱 기초(1)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 간단 웹파싱 기초(1)###########################
 download2-5-1.py ~2-5-4.py
 
 1.BeautifulSoup 간단 파싱 학습
@@ -125,7 +126,7 @@ css selector
 soup.select 
 soup.select_one 
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 간단 웹파싱 기초(2)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 간단 웹파싱 기초(2)######################
 download2-6-1.py ~ 2-6-3.py 
 
 1.BeautifulSoup HTML 파일 파싱 실습
@@ -138,7 +139,7 @@ http://pythonstudy.xyz/python/article/401-%EC%A0%95%EA%B7%9C-%ED%91%9C%ED%98%84%
 Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 람다식 : http://thrillfighter.tistory.com/356
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 기초(1)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 기초(1)@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 1.다음(daum) 금융 시가총액 상위 종목 가져오기
 2.네이버(naver) 금융 Top 10 종목 가져오기
@@ -149,7 +150,7 @@ Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 기초(2)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 기초(2)@@@@@@@@@@@@@@@@@@@@@@@@@@
 1.네이버에서 원하는 사진(이미지) 한 번에 다운로드 받기
 2.인프런 추천 강좌 이미지 한 번에 다운로드 & 제목 텍스트 파일 출력하기
 
@@ -166,7 +167,7 @@ ErrorCode : https://python.readthedocs.io/en/latest/library/errno.html
 
 Classes Documentation : https://docs.python.org/3/tutorial/classes.html
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(1)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(1)@@@@@@@@@@@@@@@@@@@@@@@@@@
 download2-7-1 ~ 2-7-3 
 
 1.다음(daum) 금융 시가총액 상위 종목 가져오기
@@ -178,7 +179,7 @@ download2-7-1 ~ 2-7-3
 BeautifulSoup : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 Css 온라인(추천) : https://www.w3schools.com/cssref/trysel.asp
 
-@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(2)
+@@@@@@@@@@@@@@@@BeautifulSoup 사용법 및 웹 파싱 실습(2)@@@@@@@@@@@@@@@@@@@@@@@@@@
 download2-8-1.py 폴더만들어서 페이지에 있는 이미지파일 모두 다운로드함
 
 1.네이버에서 원하는 사진(이미지) 한 번에 다운로드 받기
@@ -197,7 +198,7 @@ Velocity 데이터의 속도
 user-agent
 
 
-@@@@@@@@@@@@@@@@파이썬 기초 공부 - 파이썬 클래스(Class) 개념 알아보기 
+@@@@@@@@@@@@@파이썬 기초 공부 - 파이썬 클래스(Class) 개념 알아보기@@@@@@@@@@@@@@@@@@@@@@@@@@ 
 
 1.클래스 생성자 이해하기
 2.Self 이해하기
@@ -206,30 +207,240 @@ user-agent
 
 Classes Documentation : https://docs.python.org/3/tutorial/classes.html
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@Chapter3 HTTP 통신기초@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+1. request, response 간단 개념 알아보기
+2. cookie, session 개념 알아보기
+
+http://www.zetawiki.com/wiki/%EC%BF%A0%ED%82%A4%EC%99%80_%EC%84%B8%EC%85%98_%EC%B0%A8%EC%9D%B4%EC%A0%90
+
+
+@@@@@@@@@@@@@@@@@@@파이썬 requests 모듈 기초 사용법(1)@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+1. requests 모듈 사용법(1) 및 장점
+2. Json 데이터 핸들링
+3. requests 모듈 테스트 실습
+
+http://docs.python-requests.org/en/master/user/advanced/
+http://www.restapitutorial.com/lessons/httpmethods.html
+
+@@@@@@@@@@@@@@@@@@@파이썬 requests 모듈 기초 사용법(2)@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+1. requests 모듈 사용법(2)
+2. requests 모듈 Rest API 실습
+
+실습(과제) : API 서비스 제공 사이트 이용해보기(자유)
+http://docs.python-requests.org/en/master/user/advanced/
+http://www.restapitutorial.com/lessons/httpmethods.html
+https://lalwr.blogspot.kr/2016/01/restful.html
+
+
+@@@@@@@@@@@@@@@@requests 통신 실습(로그인 처리) 고급(1) - 루리웹, 인프런 
+
+
+1.루리웹(Ruliweb) 사이트 로그인 처리 후 게시판 글 가져오기
+2.인프런(Inflearn) 사이트 로그인 처리 후 개인정보 가져오기
+
+http://docs.python-requests.org/en/master/user/advanced/
+
+
+1. 보안 토큰(csrf Token), Fake User-agent, Header Payload 처리
+2. 위시캣(wishket) 사이트 로그인 처리 후 정보 가져오기
+
+
+Fake-UserAgent - https://pypi.python.org/pypi/fake-useragent
+
+@@@@@@@@@@@@@@@@@@@@웹 브라우저 없는 스크랩핑 및 파싱 실습(1)@@@@@@@@@@@@@@@@@@@@ 
+
+환경설정 
+selenium + 크롬, 파이어폭스, PhantomJS 
+
+1. Selenium 개념 및 설치(크롬,파이어폭스)
+2. PhantomJS 개념 및 설치
+3. Selenium을 이용한 사이트 이미지 캡쳐 테스트 및 예제 작성 (전체)
+4. Selenium을 이용한 인프런(Inflearn) 로그인 자동화 처리하기
+5. Selenium & Chrome Or Firefox Headless Mode 최종 세팅
+
+실습(과제) : encar(엔카) 사이트 접속 후 자동으로 매물 조회하기
+Selenium 문서 : http://selenium-python.readthedocs.io/index.html
+다운로드(Chrome) : https://sites.google.com/a/chromium.org/chromedriver/downloads
+다운로드(FireFox) : https://github.com/mozilla/geckodriver/releases
+phantomjs 문서 : http://phantomjs.org/documentation/
+다운로드 : http://phantomjs.org/download.html 
+
+
+@@@@@@@@@@@@@@@@@@@@웹 브라우저 없는 스크랩핑 및 파싱 실습(2)@@@@@@@@@@@@@@@@@@@@
+
+1.Selenium을 이용한 네이버 카페 자동으로 글쓰기
+2.네이버 로그인 처리 후 회원 리스트 정보 가져오기
+3.Class Module 실습 작성
+4.자주 사용하는 Selenium 레퍼런스(Refference) 문서 훑어보기
+실습(과제) : 권한이 필요한 사이트 게시판 페이지 별 리스트 추출해보기
+Selenium 문서 : http://selenium-python.readthedocs.io/index.html 
 
 
 
+@@@@@@@@@@@@@@@@@@@@chapter4 다양한 데이터 전송 형식 개요@@@@@@@@@@@@@@@@@@@@
+1. 머신러닝에서 다양한 형식 데이터 가공의 필요성
+2. 바이너리(Binary) 데이터 vs 텍스트(Text) 데이터
+3. 바이너리(Binary), 텍스트(Text) 데이터 생성 실습
+https://docs.microsoft.com/ko-kr/azure/machine-learning/team-data-science-process/prepare-data
+pickle : https://docs.python.org/3/library/pickle.html
+
+
+@@@@@@@@@@@@@@@@@@@@chapter4 파이썬으로 XML 데이터 다루기 
+1. XML 데이터 간단 개요
+2. XML 기상청 날씨 데이터 조회
+3. XML 기상청 날씨 데이터 지역별 파싱 및 출력
+실습(과제) : 본인 거주 지역 날씨 정보(XML) 파싱 및 출력 해보기
+
+과제 : http://www.weather.go.kr/weather/lifenindustry/sevice_rss.jsp
+XML : https://www.w3schools.com/xml/default.asp
+Bs4 : https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+
+@@@@@@@@@@@@@@@@@@@@chapter4 파이썬 자료형에 대해 알아보자@@@@@@@@@@@@@@@@@@@@
+
+1. List
+2. Tuple
+3. Dictionary
+4. Sets
+레퍼런스 : https://docs.python.org/3/tutorial/datastructures.html
+
+
+@@@@@@@@@@@@@@@@@@@@chapter4 파이썬으로 JSON 데이터 다루기@@@@@@@@@@@@@@@@@@@@ 
+1. JSON 데이터 간단 개요
+2. 파이썬으로 JSON 데이터 읽고 쓰기
+3. 파이썬으로 JSON 데이터 파싱 하기
+4. Github Repository JSON 데이터 파싱 실습
+
+실습(과제) : JSONPlaceholder 사이트에서 JSON 파싱 실습
+
+과제 : https://jsonplaceholder.typicode.com/
+JSON : https://www.w3schools.com/js/js_json_syntax.asp
+SimpleJSON : https://simplejson.readthedocs.io/en/latest/
+JSON Sort 온라인 : https://jsoneditoronline.org/
+
+JSON: Number, Object, boolean, string, array, null
+
+
+@@@@@@@@@@@@@@@@@@@@chapter4 파이썬 Pandas사용하기(1)@@@@@@@@@@@@@@@@@@@@
+1. Python Pandas 개요
+2. CSV 데이터 간단 개요
+3. 파이썬 Pandas로 CSV 데이터 읽고쓰기
+4. 파이썬 Pandas로 CSV 데이터 편집하기
+실습(과제) : 샘플 CSV 데이터 다운로드 후 읽기 및 쓰기 실습
+
+과제 : https://support.spatialkey.com/spatialkey-sample-csv-data/
+CSV: https://ko.wikipedia.org/wiki/CSV_(%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
+Pandas: http://pandas.pydata.org/
+
+데이터분석, 데이터 처리 
+대용량, 정렬, 구조화된 
+
+
+CSV
+MIME : text/csv 1;2 3,4 
+4,5,6,7 
+
+@@@@@@@@@@@@@@@@@@@@chapter4 파이썬 Pandas사용하기(2)@@@@@@@@@@@@@@@@@@@@
+
+1. 파이썬 Pandas로 엑셀(excel) 데이터 읽고 쓰기
+2. 파이썬 Pandas로 엑셀(excel) 데이터 편집하기
+3. 파이썬 Pandas로 엑셀(excel) 데이터 파일 출력
+Pandas: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html
 
 
 
+@@@@@@@@@@@@@@@@@@@@chapter4 파이썬 Pandas사용하기(3)@@@@@@@@@@@@@@@@@@@@
+1. Pandas Series, DataFrame 기초 설명
+2. Pandas Series, DataFrame 실습
+3. Pandas_datareader로 주식(증권) 데이터 가져오기
+4. Pandas로 차트(Chart) 그려보기
+
+실습(과제) : 주식 시세 조회(구글) 후 엑셀 출력 및 차트 그리기
+
+Pandas: http://pandas-datareader.readthedocs.io/en/latest/remote_data.html
+matplotlib: https://matplotlib.org/tutorials/introductory/sample_plots.html
+
+@@@@@@@@@@@@@@@@@@@@Chapter5 데이터베이스 개요@@@@@@@@@@@@@@@@@@@@
+1. 데이터베이스를 사용하는 이유
+2. 데이터베이스 종류 설명 – RDBMS, NoSQL
+
+NoSQL : https://medium.com/@bhavik1st/how-to-choose-a-nosql-database-4adb702e2cd6
+NoSQL, RDBMS 비교 : https://www.youtube.com/watch?v=HQFreqPb3dg
+
+수업 소스 파일 : https://github.com/eunki7/python_create_app_1
 
 
+@@@@@@@@@@@@Chapter5 파이썬 & 데이터베이스 연동 - TinyDB@@@@@@@@@@@@@@@@@@@@
+
+1. TinyDB 소개 및 파이썬 연동하기
+2. 테이블 생성(Create) 및 조회(Select) 실습
+3. 테이블 수정(Update) 및 삭제(Delete) 실습
+4. TinyDB 고급 사용법 외 기타 팁
+
+실습(과제) : album & photo 요청 후 DB에 저장하기
+
+TinyDB: http://tinydb.readthedocs.io/en/latest/index.html
+JSONPlaceholder : https://jsonplaceholder.typicode.com/
+수업 소스 파일 : https://github.com/eunki7/python_create_app_1
+
+@@@@@@@@@@@@Chapter5 파이썬 & 데이터베이스 연동 - SQLite3@@@@@@@@@@@@@@@@@@@@
+
+ 1. SQLite3 연동
+2. SQLite3 Manage 설치 및 사용법
+3. 테이블 생성(Create) 및 조회(Selete) 실습
+4. 테이블 수정(Update) 및 삭제(Delete) 실습
+5. 그 외 사용 팁
+
+실습(과제) : posts & comments 요청 후 DB에 저장 후 Join 조회
+SQLite Browser: http://sqlitebrowser.org/
+SQLite3 Doc: https://www.sqlite.org/lang.html
+JSONPlaceholder : https://jsonplaceholder.typicode.com/
+수업 소스 파일 : https://github.com/eunki7/python_create_app_1
 
 
+@@@@@@@@@@@@Chapter5 파이썬 & 데이터베이스 연동 - MySQL & MariaDB@@@@@@@@@@@@@@@@@@@
 
+1. MySQL & MariaDB 차이점 및 연동(설치) 설정
+2. QueryBox 설치 및 사용법
+3. 테이블 생성(Create) 및 조회(Selete) 실습
+4. 테이블 수정(Update) 및 삭제(Delete) 실습
+5. 그 외 사용 팁
 
+실습(과제) : 첨부 파일(엑셀) 파일 DB에 저장 후 조회하기
 
+MariaDB : https://mariadb.com/kb/en/library/documentation/
+MySQL: https://dev.mysql.com/doc/refman/5.7/en/
+호환성: https://mariadb.com/kb/ko/mariadb-mysql/
+pymysql: http://pymysql.readthedocs.io/en/latest/index.html
 
+@@@@@@@@@@@@Chapter5 파이썬 & 데이터베이스 연동 - with Pandas(ORM)@@@@@@@@@@@@@@@@@@@
 
+1. ORM(Object-relational mapping)이란?
+2. Pandas & SQLite3 연동 
+3. Pandas & SQLite3 데이터 가공 및 저장, 조회하기
+4. Pandas & MySQL 연동
+5. Pandas & MySQL 데이터 가공 및 저장, 조회하기
 
+실습(과제) : 본인이 원하는 주식 정보 조회 후 저장 & 조회하기
+pymysql: http://pymysql.readthedocs.io/en/latest/index.html
+SQLAlchemy : http://docs.sqlalchemy.org/en/latest/dialects/mysql.html
 
+수업 소스 파일 : https://github.com/eunki7/python_create_app_1
 
+@@@@@@@@@@@@GUI 기반 Youtube 멀티플레이어 작성(1)@@@@@@@@@@@@
+1. PyQT5 기초 설명 및 설치
+2. PyQT5 기본 연습 코딩
+3. PyQT5 Designer 실행 방법 및 예제 작성
 
+PyQT5 : http://pyqt.sourceforge.net/Docs/PyQt5/
+수업 소스 파일 : https://github.com/eunki7/python_create_app_1
 
+QT5 : 1000개 
+QT : C++ 
+PyQT5 : C, C++ 
 
+디자이너 위치 : C:\Users\POKER\anaconda3\Library\bin\designer.exe 
 
+xml -> py로 변경 
+(section6) C:\section6\example>pyuic5 -x pyqt_basic_3.ui -o pyqt_basic_ui.py
 
-
-
-
- 
